@@ -4,6 +4,10 @@ class Song
 
   attr_accessor :name, :artist, :genre 
 
+  def initialize()
+  
   def self.count
     @@count
   end
+  
+  
